@@ -16,3 +16,4 @@ src
 *.pyc                      
 __pycache__                
 *backup*                   
+!./data/demo.txt

@@ -107,8 +107,12 @@ class LabelTool():
         # print(paths[args.start])
         image = mpimg.imread(paths[args.start])
         #im = ax.imshow(image, vmin=0, vmax=1, cmap='gray')
+        #ax.text(0.3, 0.3, "hhhhhh")
         im = ax.imshow(image,  cmap='gray')
         lst_show[0] = f'{paths[cnt[0]]},{labels[cnt[0]]}\n'
+        fig.suptitle(f'lab: {labels[cnt[0]]}  cnt: {cnt[0]}\n')
+        fig.text(0.0, 0.02, ' Shortcut \n (j): easy  (k) midd,  (l) hard  (u) undo (y) save (n) just preview', fontsize=8)
+        fig.set_size_inches(img_size,img_size)
         print("show: ", cnt[0], paths[cnt[0]])
 
         

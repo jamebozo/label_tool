@@ -1,12 +1,14 @@
-Designed for macOS Sierra and High Sierra. *Not yet tested on macOS Mojave, but I'm working on updating it!*
+Simple Matplotlib Classification tool * *
 
 **Usage**
 ---
 
 ```
-Usage: stronghold.py [OPTIONS]
+Usage: mytool.py [OPTIONS]
 
-  Securely configure your Mac.
-  Developed by Aaron Lichtman -> (Github: alichtman)
+  $ python mytool.py -i  inp_file.txt -o out_file.txt 
+
+  
+  Developed by james (Github: jamebozo)
 ```
 
